@@ -1,0 +1,28 @@
+{
+    "files": [
+      "./app/server.ts"
+    ],
+    "include": [
+      "app/**/*.ts"
+    ],
+    "compilerOptions": {
+      "module": "commonjs",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "noImplicitAny": true,
+      "target": "es6",
+      "outDir": "dist",
+      "rootDir": "app",
+      "sourceMap": true,
+      "baseUrl": ".",
+      "moduleResolution": "node",
+      "removeComments": true,
+      "typeRoots": ["node_modules/@types"],
+      "paths": {
+        "*": [
+          "node_modules/@types/*",
+          "./app/types/*"
+        ]
+      }
+    }
+  }

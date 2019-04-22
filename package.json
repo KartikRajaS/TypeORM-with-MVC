@@ -1,0 +1,41 @@
+{
+  "name": "cloudblmusermanagement-dbservice",
+  "version": "1.0.0",
+  "description": "DB services for connecting Postgresql with TypeORM for usermanagement",
+  "main": "server.ts",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "npm run build && node ./dist/server.js"
+  },
+  "keywords": [
+    "DBservice",
+    "typeorm"
+  ],
+  "author": "Srinsoft",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "express-rate-limit": "^3.3.0",
+    "helmet": "^3.15.0",
+    "pg": "^7.8.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-loader": "^5.3.3",
+    "typeorm": "^0.2.12",
+    "typescript": "^3.1.4",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/compression": "0.0.36",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/express": "^4.0.36",
+    "@types/express-rate-limit": "^2.9.3",
+    "@types/helmet": "0.0.42",
+    "@types/node": "^10.12.18"
+  }
+}
