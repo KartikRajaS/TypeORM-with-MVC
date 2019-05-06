@@ -11,7 +11,7 @@
     "DBservice",
     "typeorm"
   ],
-  "author": "Srinsoft",
+  "author": "skr",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
